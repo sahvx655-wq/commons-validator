@@ -73,6 +73,7 @@ The <action> type attribute can be add,update,fix,remove.
     <action type="fix" dev="ggregory" due-to="sahvx655-wq, Gary Gregory">Reject invalid ISBN-10 in convertToISBN1 (#434).</action>
     <!-- ADD -->
     <!-- UPDATE -->
+    <action type="update" dev="ggregory" due-to="Gary Gregory">Bump org.apache.commons:commons-parent from 103 to 105.</action>
   </release>
   <release version="1.11.0" date="2026-07-28" description="This is a feature and maintenance release. Java 8 or later is required.">
     <!-- FIX -->
@@ -130,7 +131,7 @@ The <action> type attribute can be add,update,fix,remove.
     <action type="add" dev="ggregory" due-to="Gary Gregory">Add and use ValidatorException.ValidatorException(String, Object...) (#391).</action>
     <action type="add" dev="ggregory" due-to="Gary Gregory">Add and use ValidatorException(String, Throwable) (#392).</action>
     <!-- UPDATE -->
-    <action type="update" dev="ggregory" due-to="Gary Gregory, Dependabot">Bump org.apache.commons:commons-parent from 92 to 104 #377.</action>
+    <action type="update" dev="ggregory" due-to="Gary Gregory, Dependabot">Bump org.apache.commons:commons-parent from 92 to 103 #377.</action>
     <action type="update" dev="ggregory" due-to="Gary Gregory">Bump commons-logging:commons-logging from 1.3.5 to 1.4.0.</action>
     <action type="update" dev="sebb">DomainValidator: Changes from 2026062300, Last Updated Tue Jun 23 07:07:01 2026 UTC.</action>
     <action type="update" dev="sebb">DomainValidatorTest: reflection no longer needed to access arrays.</action>
